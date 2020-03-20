@@ -1,5 +1,5 @@
 {
-  "name": "example-01",
+  "name": "reactz-example-01",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,7 +13,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.0",
-    "typescript": "~3.7.2"
+    "typescript": "~3.7.2",
+    "reactz": "~0.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
