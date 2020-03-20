@@ -384,9 +384,9 @@
       "reviewCategory": "production"
     },
     {
-      "packageName": "reactz-examples-01",
-      "projectFolder": "examples/examples-01",
-      "reviewCategory": "prototype"
+      "packageName": "reactz-example-01",
+      "projectFolder": "examples/example-01",
+      "reviewCategory": "prototypes"
     }
   ]
 }
