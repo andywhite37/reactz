@@ -1,0 +1,24 @@
+{
+  "name": "reactz",
+  "version": "0.0.1",
+  "description": "Functional programming utilities for TypeScript React using fp-ts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/andywhite37/reactz.git"
+  },
+  "keywords": [
+    "fp-ts",
+    "react",
+    "typescript"
+  ],
+  "author": "Andy White",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andywhite37/reactz/issues"
+  },
+  "homepage": "https://github.com/andywhite37/reactz#readme"
+}

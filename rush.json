@@ -50,7 +50,7 @@
      *
      * The default value is "local".
      */
-    // "pnpmStore": "local",
+    "pnpmStore": "local",
 
     /**
      * If true, then Rush will add the "--strict-peer-dependencies" option when invoking PNPM.
@@ -62,8 +62,7 @@
      * The default value is false to avoid legacy compatibility issues.
      * It is strongly recommended to set strictPeerDependencies=true.
      */
-    // "strictPeerDependencies": true,
-
+    "strictPeerDependencies": true,
 
     /**
      * Configures the strategy used to select versions during installation.
@@ -77,7 +76,7 @@
      * After modifying this field, it's recommended to run "rush update --full" so that the package manager
      * will recalculate all version selections.
      */
-    // "resolutionStrategy": "fast"
+    "resolutionStrategy": "fewer-dependencies"
   },
 
   /**
@@ -139,8 +138,8 @@
    * To remove these restrictions, you could set projectFolderMinDepth=1
    * and set projectFolderMaxDepth to a large number.
    */
-  // "projectFolderMinDepth": 2,
-  // "projectFolderMaxDepth": 2,
+  "projectFolderMinDepth": 2,
+  "projectFolderMaxDepth": 2,
 
   /**
    * This feature helps you to review and approve new packages before they are introduced
@@ -379,16 +378,15 @@
     //   // "versionPolicyName": ""
     // },
     // 
-    // {
-    //   "packageName": "my-controls",
-    //   "projectFolder": "libraries/my-controls",
-    //   "reviewCategory": "production"
-    // },
-    // 
-    // {
-    //   "packageName": "my-toolchain",
-    //   "projectFolder": "tools/my-toolchain",
-    //   "reviewCategory": "tools"
-    // }
+    {
+      "packageName": "reactz",
+      "projectFolder": "libraries/reactz",
+      "reviewCategory": "production"
+    },
+    {
+      "packageName": "reactz-examples-01",
+      "projectFolder": "examples/examples-01",
+      "reviewCategory": "prototype"
+    }
   ]
 }
